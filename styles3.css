@@ -1,0 +1,91 @@
+/* styles2.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+  }
+  
+  .wrapper {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background: #000;
+    box-shadow: 0 0 50px #0ef;
+    border-radius: 20px;
+    padding: 40px;
+    overflow: hidden;
+  }
+  
+  h2 {
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px; 
+  }
+
+  .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    transition: 1s ease-in-out;
+  }
+  
+  .form-wrapper form {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .form-wrapper.sign-up {
+    color: #fff;
+    text-align: center;
+  }
+  
+  .form-wrapper.sign-up h2 {
+    margin-bottom: 50px; 
+  }
+  
+  .form-wrapper.sign-up p {
+    margin-top: 50px;
+    font-size: 25px; /* Align 30px below h2 */
+  }
+  
+  .signUp-link {
+    margin-top: 20px; /* Adjusted for spacing */
+    text-align: center;
+  }
+  
+  .signUp-link p {
+    margin-bottom: 0; /* Adjusted for spacing */
+  }
+  
+  .signUp-link p a {
+    color: #0ef;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .signUp-link p a:hover {
+    text-decoration: underline;
+
+  }
+  
+  
+  
+  .signUp-link {
+    margin-top: auto; /* Push the return link to the bottom */
+    text-align: center;
+  }
+  
